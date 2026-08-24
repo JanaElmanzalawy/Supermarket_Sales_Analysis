@@ -16,7 +16,8 @@ The goal is to clean the data and answer business questions using the available 
 
 * Python
 * Pandas
-* Matplotlib / Seaborn 
+* Matplotlib
+* Seaborn
 
 ---
 
@@ -31,12 +32,14 @@ The following data-cleaning steps were performed:
 * Removed unnecessary columns
 * Corrected data types
 * Sorted the data
-* Create 3 columns (Day, Month, Year )
-* Created the `satisfied` column based on the rating
+* Created 3 columns (Day, Month, Year)
+* Created the `Satisfied` column based on the rating
 
 **Satisfaction Rule:**
 
-`Rating >= 7 → Satisfied Else  → Not Satisfied`
+`Rating >= 7 → Satisfied`
+
+`Rating < 7 → Not Satisfied`
 
 ---
 
@@ -46,7 +49,7 @@ The following data-cleaning steps were performed:
 
 **Result:**
 
-> Update with your result. for example ![Revenue by City](images/revenue_by_city.png)
+> **313,917.06**
 
 ---
 
@@ -54,11 +57,15 @@ The following data-cleaning steps were performed:
 
 **Highest Revenue City:**
 
-> Update with your result.
+> **Naypyitaw — 107,795.81**
 
-**Result / Screenshot:**
+**Revenue by City:**
 
-> Add your table or image here.
+| City | Revenue |
+|---|---:|
+| Naypyitaw | 107,795.81 |
+| Mandalay | 103,737.66 |
+| Yangon | 102,383.59 |
 
 ---
 
@@ -66,23 +73,34 @@ The following data-cleaning steps were performed:
 
 **Most Profitable Branch:**
 
-> Update with your result.
+> **Giza — 5,198.51**
 
-**Result / Screenshot:**
+**Profit by Branch:**
 
-> Add your table or image here.
+| Branch | Profit |
+|---|---:|
+| Giza | 5,198.51 |
+| Cairo | 5,012.69 |
+| Alex | 4,933.65 |
 
 ---
 
 ### 4. Revenue and Profit by Product Category
 
-**Top-Performing Category:**
+**Top-Performing Category by Revenue:**
 
-> Update with your result.
+> **Food and beverages — Revenue: 55,020.60 | Profit: 2,643.74**
 
-**Result / Screenshot:**
+**Revenue and Profit by Category:**
 
-> Add your table or image here.
+| Product Category | Revenue | Profit |
+|---|---:|---:|
+| Food and beverages | 55,020.60 | 2,643.74 |
+| Sports and travel | 53,320.63 | 2,566.57 |
+| Fashion accessories | 53,198.48 | 2,583.10 |
+| Electronic accessories | 52,651.89 | 2,520.12 |
+| Home and lifestyle | 51,926.56 | 2,528.07 |
+| Health and beauty | 47,798.90 | 2,303.24 |
 
 ---
 
@@ -90,7 +108,14 @@ The following data-cleaning steps were performed:
 
 **Customer Type That Spends More:**
 
-> Update with your result.
+> **Member — 180,645.08**
+
+**Spending by Customer Type:**
+
+| Customer Type | Spending |
+|---|---:|
+| Member | 180,645.08 |
+| Normal | 133,271.99 |
 
 ---
 
@@ -98,7 +123,15 @@ The following data-cleaning steps were performed:
 
 **Most Popular Payment Method:**
 
-> Update with your result.
+> **Cash — 341 transactions**
+
+**Transactions by Payment Method:**
+
+| Payment Method | Transactions |
+|---|---:|
+| Cash | 341 |
+| Ewallet | 338 |
+| Credit Card | 309 |
 
 ---
 
@@ -106,7 +139,7 @@ The following data-cleaning steps were performed:
 
 **Average Transaction Value:**
 
-> Update with your result.
+> **317.73**
 
 ---
 
@@ -114,7 +147,15 @@ The following data-cleaning steps were performed:
 
 **Branch with the Highest Satisfaction:**
 
-> Update with your result.
+> **Alex — 52.69%**
+
+**Satisfaction by Branch:**
+
+| Branch | Satisfaction |
+|---|---:|
+| Alex | 52.69% |
+| Giza | 52.15% |
+| Cairo | 46.04% |
 
 ---
 
@@ -122,11 +163,11 @@ The following data-cleaning steps were performed:
 
 **Highest Sales Day:**
 
-> Update with your result.
+> **Day 15 — 15,049.09**
 
 **Highest Sales Month:**
 
-> Update with your result.
+> **Month 1 — 111,778.41**
 
 ---
 
@@ -134,7 +175,19 @@ The following data-cleaning steps were performed:
 
 **Overall Satisfaction Percentage:**
 
-> Update with your result.
+> **50.30%**
 
 ---
-Displaying README.MD.
+
+## 📈 Visualizations
+
+The analysis was visualized using **Matplotlib and Seaborn**, including:
+
+* Revenue by city
+* Profit by branch
+* Revenue and profit by product category
+* Spending by customer type
+* Transactions by payment method
+* Customer satisfaction by branch
+* Revenue by month
+* Overall customer satisfaction
