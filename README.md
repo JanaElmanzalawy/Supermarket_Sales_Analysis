@@ -16,8 +16,7 @@ The goal is to clean the data and answer business questions using the available 
 
 * Python
 * Pandas
-* Matplotlib / Seaborn (Optional)
-* Streamlit (Optional)
+* Matplotlib / Seaborn 
 
 ---
 
